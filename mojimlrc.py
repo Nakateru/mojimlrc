@@ -9,7 +9,6 @@ if __name__ == '__main__':
     print('mojim lrc saver')
     print('Author  :  Nakateru (2021.02.03)')
     # print('https://mojim.com/')
-    Firsturl = input('Input Instagram URL:')
     url = input('Input URL:')
     options = webdriver.ChromeOptions()
     options.add_argument('--headless')
