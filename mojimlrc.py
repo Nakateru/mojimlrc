@@ -19,7 +19,7 @@ if __name__ == '__main__':
 
     lrc = WebDriverWait(driver, 10).until(EC.element_to_be_clickable((By.ID, 'fsZx1'))).text
     title = driver.title
-    title = re.split(r" 歌詞 ", title)[0]
+    title = re.split(r" 歌[詞词] ", title)[0]
 
     tag = "[ti:" + title + "]\n[ar:]\n[al:]\n"
 
